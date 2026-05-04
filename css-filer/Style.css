@@ -1,3 +1,49 @@
-*{
-    background-color: bisque;
+* {
+  background-color: bisque;
+  max-width: 500px;
+  align-items: center;
+  margin: auto;
+}
+.menubtn {
+  position: fixed;
+  left: 15px;
+  /*   z-index: 1001; */
+}
+
+.menubtn span {
+  display: block;
+  width: 30px;
+  height: 4px;
+  background: black;
+  margin: 6px 0;
+}
+
+/* Sidomeny */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -250px; /* gömd från början */
+  width: 250px;
+  height: 100%;
+  background-color: #333;
+  padding-top: 60px;
+  transition: 0.3s;
+  z-index: 1000;
+}
+
+/* Länkar i menyn */
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  background-color: #575757;
+}
+
+/* När menyn är aktiv */
+.sidebar.active {
+  left: 0;
 }

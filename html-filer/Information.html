@@ -1,67 +1,198 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css-filer/Style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css-filer/Style.css" />
     <title>Matte.se</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav></nav>
+      <nav></nav>
     </header>
     <div class="Rubrik">
-        <h1>Lär dig Matte</h1>
+      <h1>Lär dig Matte</h1>
     </div>
-    <p>På den här sidan kommer du få information om olika områden inom matematiken som man lär sig under gymnasiet</p>
+    <p>
+      På den här sidan kommer du få information om olika områden inom
+      matematiken som man lär sig under gymnasiet
+    </p>
     <div class="Rubrik">
-        <h2>Derivata</h2>
+      <h2 id="Derivata">Derivata</h2>
     </div>
     <p>
-        Derivatan är ett centralt begrepp inom matematiken och används för att beskriva hur snabbt en funktion förändras
-        i en viss punkt. Man kan säga att derivatan visar funktionens förändringstakt. Om man ritar en funktion som en
-        graf motsvarar derivatan lutningen på tangenten till kurvan i en specifik punkt. Om derivatan är positiv växer
-        funktionen, om den är negativ avtar funktionen, och om derivatan är noll har funktionen en topp, botten eller en
-        plan punkt.
+      Derivatan är ett centralt begrepp inom matematiken och används för att
+      beskriva hur snabbt en funktion förändras i en viss punkt. Man kan säga
+      att derivatan visar funktionens förändringstakt. Om man ritar en funktion
+      som en graf motsvarar derivatan lutningen på tangenten till kurvan i en
+      specifik punkt. Om derivatan är positiv växer funktionen, om den är
+      negativ avtar funktionen, och om derivatan är noll har funktionen en topp,
+      botten eller en plan punkt.
     </p>
-    <img src="../Bilder/Tangent.jpg" alt="Andragradsfunktion och Tangent"> <!-- Behöver ändra bilden -->
+    <img
+      src="../Bilder/Tangent.jpg"
+      alt="Andragradsfunktion och Tangent"
+      class="Bilder"
+    />
+    <!-- Behöver ändra bilden -->
     <p>
-        Matematiskt definieras derivatan med hjälp av ett gränsvärde, där man undersöker hur kvoten mellan förändringen
-        i funktionens värde och förändringen i x beter sig när förändringen i x blir mycket liten. Denna definition
-        ligger till grund för alla deriveringsregler, men i praktiken använder man oftast färdiga regler för att göra
-        beräkningarna enklare.
+      Matematiskt definieras derivatan med hjälp av ett gränsvärde, där man
+      undersöker hur kvoten mellan förändringen i funktionens värde och
+      förändringen i x beter sig när förändringen i x blir mycket liten. Denna
+      definition ligger till grund för alla deriveringsregler, men i praktiken
+      använder man oftast färdiga regler för att göra beräkningarna enklare.
     </p>
-    <img src="../Bilder/DerivataDef.jpg" alt="Derivatans definition"> <!-- Hitta bättre med en vitt bakgrund -->
+    <img
+      src="../Bilder/DerivataDef.jpg"
+      alt="Derivatans definition"
+      class="Bilder"
+    />
+    <!-- Hitta bättre med en vitt bakgrund -->
     <p>
-        Att derivera innebär att man bestämmer derivatan av en funktion. Det finns flera viktiga regler som används. En
-        av de vanligaste är potensregeln, som säger att om man har en funktion av typen x upphöjt till n, så blir
-        derivatan n gånger x upphöjt till n minus 1. Till exempel blir derivatan av x³ lika med 3x². En annan regel är
-        att derivatan av en konstant alltid är noll. Om man har en summa av flera termer deriverar man varje term för
-        sig. Till exempel blir derivatan av x² + x lika med 2x + 1.
+      Att derivera innebär att man bestämmer derivatan av en funktion. Det finns
+      flera viktiga regler som används. En av de vanligaste är potensregeln, som
+      säger att om man har en funktion av typen x upphöjt till n, så blir
+      derivatan n gånger x upphöjt till n minus 1. Till exempel blir derivatan
+      av x³ lika med 3x². En annan regel är att derivatan av en konstant alltid
+      är noll. Om man har en summa av flera termer deriverar man varje term för
+      sig. Till exempel blir derivatan av x² + x lika med 2x + 1.
     </p>
-    <img src="../Bilder/DerivataReg.jpg" alt="Derivatans regler"> <!-- Göra den mindre, ba css -->
+    <img
+      src="../Bilder/DerivataReg.jpg"
+      alt="Derivatans regler"
+      class="Bilder"
+    />
+    <!-- Göra den mindre, ba css -->
     <p>
-        Som exempel kan man derivera funktionen f(x) = 3x² + 2x + 1. Genom att använda reglerna får man derivatan f'(x)
-        = 6x + 2.
+      Som exempel kan man derivera funktionen f(x) = x^3 - 3x +2. Genom att
+      använda reglerna får man derivatan f'(x) = 3x^2 - 3.
     </p>
+    <img
+      src="../Bilder/DerivataExe.jpg"
+      alt="Derivata exempel"
+      class="Bilder"
+    />
     <p>
-        För att en funktion ska vara deriverbar i en punkt finns det vissa krav. Funktionen måste vara kontinuerlig,
-        vilket betyder att den inte får ha några hopp eller avbrott. Dessutom måste funktionen vara tillräckligt "slät",
-        vilket innebär att den inte får ha några skarpa hörn eller spetsar. Slutligen måste gränsvärdet som definierar
-        derivatan existera och ge ett bestämt värde.
+      För att en funktion ska vara deriverbar i en punkt finns det vissa krav.
+      Funktionen måste vara kontinuerlig, vilket betyder att den inte får ha
+      några hopp eller avbrott. Dessutom måste funktionen vara tillräckligt
+      "slät", vilket innebär att den inte får ha några skarpa hörn eller
+      spetsar. Slutligen måste gränsvärdet som definierar derivatan existera och
+      ge ett bestämt värde.
     </p>
+    <img
+      src="../Bilder/DerivataGår.jpg"
+      alt="Exempel på en funktion som går att derivera"
+      class="Bilder"
+    />
     <p>
-        Det finns också situationer där en funktion inte går att derivera. Det gäller till exempel vid hörn, som i
-        absolutbeloppsfunktioner, vid lodräta tangenter eller vid diskontinuiteter där funktionen har ett hopp.
+      Det finns också situationer där en funktion inte går att derivera. Det
+      gäller till exempel vid hörn, som i absolutbeloppsfunktioner, vid lodräta
+      tangenter eller vid diskontinuiteter där funktionen har ett hopp.
     </p>
+    <img
+      src="../Bilder/DerivataEj.jpg"
+      alt="Exempel på en funktion som har spetsiga hörn så blir den oderiverbar vid den punkten"
+      class="Bilder"
+    />
+    <!-- Möjlig variant 
+     https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Discontinuity_jump.eps.png/250px-Discontinuity_jump.eps.png -->
     <p>
-        Sammanfattningsvis är derivatan ett verktyg för att beskriva förändring och lutning. Den används inom många
-        områden, som fysik, ekonomi och teknik, och är en viktig del av matematiken på gymnasienivå.
+      Sammanfattningsvis är derivatan ett verktyg för att beskriva förändring
+      och lutning. Den används inom många områden, som fysik, ekonomi och
+      teknik, och är en viktig del av matematiken på gymnasienivå. om du vill
+      lära dig mer om derivatan och dess tillämpningar kan du kolla in på vår
+      sida om <a href="Derivata.html">Derivata</a> där du hittar övningar för
+      att träna på derivator.
     </p>
-    
-    <script src="../javascript-filer/JavaScript.js"></script>
-</body>
 
+    <div class="Rubrik">
+      <h2 id="Logaritmer">Logaritmer</h2>
+    </div>
+    <p>
+      Logaritmer är ett viktigt begrepp inom matematiken och används för att
+      beskriva samband där något växer eller minskar snabbt, till exempel
+      exponentiell tillväxt. En logaritm svarar på frågan: “till vilken exponent
+      måste man upphöja ett tal för att få ett visst resultat?”. Till exempel
+      betyder log4(16) = 2 eftersom 4^2 = 16.
+    </p>
+    <img
+      src="../Bilder/LogaritmerEnkel.jpg"
+      alt="En enkel Logaritm"
+      class="Bilder"
+    />
+    <p>
+      Logaritmer är nära kopplade till exponentialfunktioner. Om man har en
+      exponentialfunktion kan man använda logaritmer för att “backa” och hitta
+      exponenten. Logaritmen är alltså inversen till exponentialfunktionen.
+      Detta gör logaritmer väldigt användbara när man löser ekvationer där
+      variabeln finns i exponenten.
+    </p>
+    <img
+      src="../Bilder/LogaritmerFun.jpg"
+      alt="Bild på en exponentialfunktion och logaritmfunktion"
+      class="Bilder"
+    />
+    <p>
+      En logaritm definieras som logₐ(x) = y om och endast om aʸ = x, där a är
+      basen. De vanligaste logaritmerna är tiologaritmen (log) och den naturliga
+      logaritmen (ln), där ln har basen e (ungefär 2,718). Dessa används ofta
+      inom olika områden som fysik, ekonomi och naturvetenskap.
+    </p>
+    <img
+      src="../Bilder/LogaritmerFor.jpg"
+      alt="Logaritm formel"
+      class="Bilder"
+    />
+    <p>
+      Det finns flera viktiga regler för logaritmer som gör det enklare att
+      räkna med dem. Produkten av två tal blir summan av deras logaritmer:
+      log(ab) = log(a) + log(b). Kvoten av två tal blir skillnaden: log(a/b) =
+      log(a) − log(b). Om man har en exponent kan man flytta ner den framför
+      logaritmen: log(aⁿ) = n·log(a). Dessa regler används ofta för att förenkla
+      uttryck.
+    </p>
+    <img
+      src="../Bilder/LogaritmerLag.jpg"
+      alt="Logaritm lagar"
+      class="Bilder"
+    />
+    <p>
+      Som exempel kan man lösa ekvationen 10ˣ = 1000. Genom att använda
+      logaritmer får man x = log(1000) = 3. På samma sätt kan man använda ln för
+      ekvationer med basen e.
+    </p>
+    <img
+      src="../Bilder/LogaritmerExe.jpg"
+      alt="Exempel på en logaritm"
+      class="Bilder"
+    />
+    <p>
+      För att en logaritm ska vara definierad måste vissa villkor uppfyllas.
+      Talet inuti logaritmen måste vara större än noll, eftersom man inte kan ta
+      logaritmen av noll eller negativa tal. Basen måste också vara positiv och
+      får inte vara lika med 1.
+    </p>
+    <img
+      src="../Bilder/LogaritmerDef.jpg"
+      alt="Graf som visar att grafen aldrig är på negativa sidan av x axeln"
+      class="Bilder"
+    />
+    <p>
+      Logaritmer är inte definierade för negativa tal eller noll. Till exempel
+      går det inte att beräkna log(−5) eller log(0). Detta är viktigt att tänka
+      på när man löser ekvationer eller ritar grafer.
+    </p>
+    <img src="" alt="Ett kryss över log(-5)" class="Bilder" />
+    <!-- Bilder finns vid namnet Logaritmer -->
+    <p>
+      Logaritmer används för att beskriva och lösa problem där exponenter är
+      inblandade. De är särskilt viktiga inom områden som tillväxt, ränta,
+      ljudnivåer och pH-värden. Genom att använda logaritmlagar kan man förenkla
+      beräkningar och lösa avancerade problem på ett smidigt sätt.
+    </p>
+
+    <script src="../javascript-filer/JavaScript.js"></script>
+  </body>
 </html>
